@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+   
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EventServlet</servlet-name>
+        <servlet-class>servlets.EventServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EventServlet</servlet-name>
+        <url-pattern>/EventServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookingServlet</servlet-name>
+        <servlet-class>servlets.BookingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookingServlet</servlet-name>
+        <url-pattern>/BookingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getCustomerBookings</servlet-name>
+        <servlet-class>servlets.getCustomerBookings</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getCustomerBookings</servlet-name>
+        <url-pattern>/getCustomerBookings</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TicketServlet</servlet-name>
+        <servlet-class>servlets.TicketServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TicketServlet</servlet-name>
+        <url-pattern>/TicketServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getSeatStatus</servlet-name>
+        <servlet-class>servlets.getSeatStatus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getSeatStatus</servlet-name>
+        <url-pattern>/getSeatStatus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getMostPopularEvent</servlet-name>
+        <servlet-class>servlets.getMostPopularEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getMostPopularEvent</servlet-name>
+        <url-pattern>/getMostPopularEvent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getEventEarnings</servlet-name>
+        <servlet-class>servlets.getEventEarnings</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getEventEarnings</servlet-name>
+        <url-pattern>/getEventEarnings</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getEventWithMostEarningsTimeRange</servlet-name>
+        <servlet-class>servlets.getEventWithMostEarningsTimeRange</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getEventWithMostEarningsTimeRange</servlet-name>
+        <url-pattern>/getEventWithMostEarningsTimeRange</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getBookingsForTimePeriod</servlet-name>
+        <servlet-class>servlets.getBookingsForTimePeriod</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getBookingsForTimePeriod</servlet-name>
+        <url-pattern>/getBookingsForTimePeriod</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QuestionF</servlet-name>
+        <servlet-class>servlets.QuestionF</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuestionF</servlet-name>
+        <url-pattern>/QuestionF</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

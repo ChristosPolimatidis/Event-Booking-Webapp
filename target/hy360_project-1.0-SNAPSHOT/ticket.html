@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ticket.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Manage Ticket</title>
+</head>
+<body>
+<section id="create_ticket_section">
+    <h2>Create New Tickets</h2>
+    <form id="create_ticket_form">
+
+        <label for="event_id">Event ID:</label>
+        <input type="text" id="event_id" name="event_id" required><br>
+
+        <label for="vip_seats">VIP Seats:</label>
+        <input type="text" id="vip_seats" name="vip_seats" required><br>
+
+        <label for="general_seats">General Seats:</label>
+        <input type="text" id="general_seats" name="general_seats" required><br>
+
+        <label for="student_seats">Student Seats:</label>
+        <input type="text" id="student_seats" name="student_seats" required><br>
+
+        <label for="child_seats">Child Seats:</label>
+        <input type="text" id="child_seats" name="child_seats" required><br>
+
+        <label for="vip_price">VIP Price:</label>
+        <input type="text" id="vip_price" name="vip_price" required><br>
+
+        <label for="general_price">General Price:</label>
+        <input type="text" id="general_price" name="general_price" required><br>
+
+        <label for="student_price">Student Price:</label>
+        <input type="text" id="student_price" name="student_price" required><br>
+
+        <label for="child_price">Child Price:</label>
+        <input type="text" id="child_price" name="child_price" required><br>
+
+        <button id="create_ticket">Create Tickets</button>
+
+    </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="ticket.js"></script>
+</body>
+</html>
